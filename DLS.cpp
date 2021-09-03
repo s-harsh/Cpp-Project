@@ -8,6 +8,7 @@ int score1 = 0, score2 = 0, overs = 0, wickets = 0, team2run, rungape;
 double resource;
 
 //dls resources table, called by fucntion
+//It is only for 50 over match.
 
 double table(int i, int j)
 {
