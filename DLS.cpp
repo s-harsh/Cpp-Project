@@ -67,7 +67,6 @@ double table(int i, int j)
 void welcome()
 {
     cout << "\t \t \t\t \t |______________________________ Welcome to DLS Calculator ______________________________| \n \n" ;
-    cout<<"Calculator for calculating reduced over or winning team,it is for 50 overs match. \n \n \n";
 }
 
 int main()
