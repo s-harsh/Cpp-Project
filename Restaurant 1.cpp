@@ -145,7 +145,7 @@ int main()
 	start:
 
 		cin >> orderno;
-		cout << "\t";
+		//cout << "\t";
 		if (i == 0)
 		{
 			if (limit >= arr[orderno - 1].price)
@@ -184,7 +184,7 @@ int main()
 			cout << " \n Your extra amount is = Rs." << extra << endl<<endl;
 			if (extra < 40)
 			{
-				cout << " \n Your extra amount is = Rs. " << extra << "\n Sorry You can't order another item from that amount" << endl;
+				cout << "\nYour extra amount is = Rs. " << extra << "\n Sorry You can't order another item from that amount" << endl;
 				break;
 				goto end;
 			}
